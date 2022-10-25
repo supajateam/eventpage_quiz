@@ -58,16 +58,16 @@
           </a>
           <button style="border: none;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars text-dark fs-3"></i>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav text-center">
+            <ul class="navbar-nav text-center fs-md-14px">
               <li class="nav-item">
                 <a class="nav-link pe-6" aria-current="page" href="https://live.supaja.com/guest">선생님찾기 </a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link pe-6 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">로그인</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu fs-md-14px">
                   <li><a class="dropdown-item" href="https://live.supaja.com/login/st">학생 로그인</a></li>
                   <li><a class="dropdown-item" href="https://live.supaja.com/login/p">학부모 로그인</a></li>
                   <li><a class="dropdown-item" href="https://www.supaja.com/signin_te">선생님 로그인</a></li>
@@ -75,7 +75,7 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link pe-6 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">회원가입</a>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu fs-md-14px">
                   <li><a class="dropdown-item" href="https://live.supaja.com/signup">학생 회원가입</a></li>
                   <li><a class="dropdown-item" href="https://www.supaja.com/signup_te/email">선생님 회원가입</a></li>
                 </ul>               
@@ -96,6 +96,12 @@
 
         .header-2 .nav-item a:hover {
           color: #1735DB;
+        }
+
+        @media screen and (max-width: 768px) {
+          .fs-md-14px {
+            font-size: 14px;
+          }
         }
       </style>
 
@@ -183,7 +189,7 @@
       <!--begin::Heading-->
       <div class="text-center mt-xl-20 mt-lg-10 mt-0 mb-17">
         <!--begin::Title-->
-        <h3 class="fw-bolder fs-2hx text-dark mb-5">비교할수록 현명한 3가지 이유</h3>
+        <h3 class="fw-bolder fs-2hx text-dark mb-5">비교할수록 현명한 4가지 이유</h3>
         <!--end::Title-->
       </div>
       <!--end::Heading-->
@@ -731,7 +737,7 @@
               <iframe src="https://www.youtube.com/embed/FrTwH9Av4RU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
           </div>
-          <div class="my-md-3 my-0 nav-group d-flex flex-column align-items-center justify-content-between" data-kt-buttons="true">
+          <div class="pb-md-20 my-md-3 my-0 nav-group d-flex flex-column align-items-center justify-content-between" data-kt-buttons="true">
             <button id="videoBtn1" class="mb-5 videoBtn d-block btn btn-shadow btn-light-shadow btn-color-gray-800 btn-active btn-active-primary active">
               <div class="d-flex px-8 position-relative my-2">
                 <div class="fs-2 text-ellipsis me-3">
@@ -872,7 +878,7 @@
   <!--end::Review -->
 
   <!--begin::Landing hero-->
-  <div class="landing-white-bg mt-20" style="background-image: url('./assets/imgs/intro3.png'); background-repeat: no-repeat; background-size: cover;">
+  <div class="landing-white-bg" style="background-image: url('./assets/imgs/intro3.png'); background-repeat: no-repeat; background-size: cover;">
     <div class="d-flex flex-column flex-center w-100 min-h-350px min-h-lg-500px px-9">
       <!--begin::Heading-->
       <div class="text-center mb-5 mb-lg-10 py-10 py-lg-20">
@@ -1003,9 +1009,9 @@
             <img src="./assets/imgs/csr1.png" class="d-block w-100" alt="...">
             <!--begin::Slider-detail -->
             <div class="fs-5 fs-lg-3 fw-bold text-dark text-start mt-8">
-              포스코 드림캠프
+              포스코 1% 나눔재단
             </div>
-            <div class="fw-semibold fs-6 fs-lg-4 text-muted text-start mt-3">학생 수 총 120명<br>포스코 창업재단과 수파자가 함께 포항•광양 지역의 취약계층 청소년들에게
+            <div class="fw-semibold fs-4 text-muted text-start mt-3"><br>포스코 창업재단과 수파자가 함께 포항•광양 지역의 취약계층 청소년들에게
               <br class="only-PC"> 명문대 멘토 선생님들과의 1:1 온라인 학습멘토링 프로그램 지원</div>
             <!--end::Slider-detail -->
           </div>
@@ -1015,7 +1021,7 @@
             <div class="fs-5 fs-lg-3 fw-bold text-dark text-start mt-8">
               용인시 다문화 센터
             </div>
-            <div class="fw-semibold fs-6 fs-lg-4 text-muted text-start mt-3">
+            <div class="fw-semibold fs-4 text-muted text-start mt-3">
               <br>
               용인시에 거주하고 있는 다문화 가정 자녀들에게 1:1 온라인 멘토링을 <br class="only-PC">
               통한 한국어 수업 및 기초학력 보충 수업 제공
