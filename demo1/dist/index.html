@@ -5,7 +5,7 @@
 
 <head>
   <base href="" />
-  <title>명문대 선생님 1:1 화상과외 화상수업 비대면과외 수파자</title>
+  <title>타이틀을 지정해주세요.</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
@@ -17,35 +17,12 @@
   <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
   <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
   <!--end::Global Stylesheets Bundle-->
-<!--  -->
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 </head>
 <!--end::Head-->
 <!--begin::Body-->
 
-<body id="kt_body" data-bs-spy="scroll" data-bs-target="#kt_landing_menu" tabindex="0" data-bs-smooth-scroll="true" class="scrollspy bg-white position-relative app-blank">
-  <!--begin::Theme mode setup on page load-->
-  <script>
-    var defaultThemeMode = "light";
-    var themeMode;
-    if (document.documentElement) {
-      if (document.documentElement.hasAttribute("data-theme-mode")) {
-        themeMode = document.documentElement.getAttribute("data-theme-mode");
-      } else {
-        if (localStorage.getItem("data-theme") !== null) {
-          themeMode = localStorage.getItem("data-theme");
-        } else {
-          themeMode = defaultThemeMode;
-        }
-      }
-      if (themeMode === "system") {
-        themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
-      }
-      document.documentElement.setAttribute("data-theme", themeMode);
-    }
-  </script>
-  <!--end::Theme mode setup on page load-->
+<body class="bg-white position-relative">
   <!--begin::Root-->
   <!--begin::Header Section-->
   <div class="mb-0">
@@ -55,33 +32,8 @@
         <div class="container">
           <a class="navbar-brand" href="#">
             <img class="logo img-fluid" src="./assets/imgs/logo.png" alt="logo_W3" style="width: 100px;">
-          </a>
-          <button style="border: none;" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <i class="fa-solid fa-bars text-dark fs-3"></i>
-          </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav text-center fs-md-14px">
-              <li class="nav-item">
-                <a class="nav-link pe-6" aria-current="page" href="https://live.supaja.com/guest">선생님찾기 </a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link pe-6 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">로그인</a>
-                <ul class="dropdown-menu fs-md-14px">
-                  <li><a class="dropdown-item" href="https://live.supaja.com/login/st">학생 로그인</a></li>
-                  <li><a class="dropdown-item" href="https://live.supaja.com/login/p">학부모 로그인</a></li>
-                  <li><a class="dropdown-item" href="https://www.supaja.com/signin_te">선생님 로그인</a></li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link pe-6 dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">회원가입</a>
-                <ul class="dropdown-menu fs-md-14px">
-                  <li><a class="dropdown-item" href="https://live.supaja.com/signup">학생 회원가입</a></li>
-                  <li><a class="dropdown-item" href="https://www.supaja.com/signup_te/email">선생님 회원가입</a></li>
-                </ul>               
-              </li>
-            </ul>
-          </div>
+          </a> 
+          
         </div>
       </header>
 
@@ -1235,11 +1187,6 @@
   <script src="assets/js/custom/pages/pricing/general.js"></script>
   <!--end::Custom Javascript-->
   <!--end::Javascript-->
-
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
 </body>
 <!--end::Body-->
 
