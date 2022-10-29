@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html>
+<!--begin::Head-->
+<!-- git test please ignore this -->
+
+<head>
+  <base href="" />
+  <title>타이틀을 지정해주세요.</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+  <link rel="shortcut icon" href="assets/imgs/favicon/favicon_symbol.png" />
+  <!--begin::Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+  <!--end::Fonts-->
+  <!--begin::Global Stylesheets Bundle(used by all pages)-->
+  <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+  <!--end::Global Stylesheets Bundle-->
+
+</head>
+<!--end::Head-->
+<!--begin::Body-->
+
+<body id="kt_body" data-bs-spy="scroll" data-bs-target="#kt_landing_menu" tabindex="0" data-bs-smooth-scroll="true" class="scrollspy bg-white position-relative app-blank">
+  <!--begin::Theme mode setup on page load-->
+  <script>
+    var defaultThemeMode = "light";
+    var themeMode;
+    if (document.documentElement) {
+      if (document.documentElement.hasAttribute("data-theme-mode")) {
+        themeMode = document.documentElement.getAttribute("data-theme-mode");
+      } else {
+        if (localStorage.getItem("data-theme") !== null) {
+          themeMode = localStorage.getItem("data-theme");
+        } else {
+          themeMode = defaultThemeMode;
+        }
+      }
+      if (themeMode === "system") {
+        themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", themeMode);
+    }
+  </script>
+  <!--end::Theme mode setup on page load-->
+  <!--begin::Root-->
+  <!--begin::Header Section-->
+  <div class="mb-0">
+    <!--begin::Wrapper-->
+    <div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom z-index-1">
+      <header class="navbar navbar-expand-lg fixed-top bg-white p-5 border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo img-fluid" src="./assets/imgs/logo.png" alt="logo_W3" style="width: 128px;">
+          </a> 
+        </div>
+      </header>
+
+      <style>
+        .nav-tabs.nav-line-tabs {
+          border-bottom-color: rgba(0,0,0,0);
+        }
+
+        .header-2 .nav-item a {
+          color: #000;
+        }
+
+        .header-2 .nav-item a:hover {
+          color: #1735DB;
+        }
+
+        @media screen and (max-width: 768px) {
+          .fs-md-14px {
+            font-size: 14px;
+          }
+        }
+      </style>
+    </div>
+    <!--end::Wrapper-->
+  </div>
+
+  <!--end::Header Section-->
+  
+  
+  <div class="container">
+    <!-- begin::Timeline Section-->
+    <div class="card h-md-100">
+      <!--begin::Header-->
+      <div class="card-header border-0 mt-20 pt-15 ps-6">
+        <div class="card-title align-items-start flex-column">
+          <span class="fs-3x card-label fw-bolder text-dark">{{1}}일차 퀴즈</span>
+        </div>
+      </div>
+      <!--end::Header-->
+      <!--begin::Body-->
+      <div class="card-body pt-7 px-0">
+        <!--begin::Nav-->
+        <ul class="nav nav-stretch nav-pills nav-pills-custom nav-pills-active-custom d-flex justify-content-between mb-8 px-5">
+          <!--begin::Nav item-->
+          <li class="nav-item p-0 ms-0">
+            <!--begin::Date-->
+            <a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-45px py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_1">
+              <span class="fs-7 fw-semibold">Day</span>
+              <span class="fs-6 fw-bold">1</span>
+            </a>
+            <!--end::Date-->
+          </li>
+          <!--end::Nav item-->
+          <!--begin::Nav item-->
+          <li class="nav-item p-0 ms-0">
+            <!--begin::Date-->
+            <a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-45px py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_2">
+              <span class="fs-7 fw-semibold">Day</span>
+              <span class="fs-6 fw-bold">2</span>
+            </a>
+            <!--end::Date-->
+          </li>
+          <!--end::Nav item-->
+          <!--begin::Nav item-->
+          <li class="nav-item p-0 ms-0">
+            <!--begin::Date-->
+            <a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-45px py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_3">
+              <span class="fs-7 fw-semibold">Day</span>
+              <span class="fs-6 fw-bold">3</span>
+            </a>
+            <!--end::Date-->
+          </li>
+          <!--end::Nav item-->
+          <!--begin::Nav item-->
+          <li class="nav-item p-0 ms-0">
+            <!--begin::Date-->
+            <a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-45px py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_4">
+              <span class="fs-7 fw-semibold">Day</span>
+              <span class="fs-6 fw-bold">4</span>
+            </a>
+            <!--end::Date-->
+          </li>
+          <!--end::Nav item-->
+          <!--begin::Nav item-->
+          <li class="nav-item p-0 ms-0">
+            <!--begin::Date-->
+            <a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-45px py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_5">
+              <span class="fs-7 fw-semibold">Day</span>
+              <span class="fs-6 fw-bold">5</span>
+            </a>
+            <!--end::Date-->
+          </li>
+          <!--end::Nav item-->
+          <!--begin::Nav item-->
+          <li class="nav-item p-0 ms-0">
+            <!--begin::Date-->
+            <a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-45px py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_6">
+              <span class="fs-7 fw-semibold">Day</span>
+              <span class="fs-6 fw-bold">6</span>
+            </a>
+            <!--end::Date-->
+          </li>
+          <!--end::Nav item-->
+          <!--begin::Nav item-->
+          <li class="nav-item p-0 ms-0">
+            <!--begin::Date-->
+            <a class="nav-link btn d-flex flex-column flex-center rounded-pill min-w-45px py-4 px-3 btn-active-primary" data-bs-toggle="tab" href="#kt_timeline_widget_3_tab_content_7">
+              <span class="fs-7 fw-semibold">Day</span>
+              <span class="fs-6 fw-bold">7</span>
+            </a>
+            <!--end::Date-->
+          </li>
+          <!--end::Nav item-->
+        </ul>
+        <!--end::Nav-->
+        <!--begin::Tab Content (ishlamayabdi)-->
+        <div class="tab-content mb-2 px-7">
+          <!--begin::Tap pane-->
+          <div class="tab-pane fade" id="kt_timeline_widget_3_tab_content_1">
+            <!--begin::Header -->
+            <div class="fw-bold fs-1 my-10">리즈1960 선생님은 과외비를 매달 </div>
+            <!--end::Header -->
+            <!--begin::Wrapper-->
+            <div class="d-flex align-items-center mb-15">
+              <!--begin::Bullet-->
+              <span class="d-flex justify-content-center align-items-center symbol-label bg-light-primary rounded w-45px h-45px">
+                <div class="fs-2x fw-bold text-primary">1</div>
+              </span>
+              <!--end::Bullet-->
+              <!--begin::Info-->
+              <div class="flex-grow-1 mx-6">
+                <div class="fw-bold fs-2">50% 받는다.</div>
+              </div>
+              <!--end::Info-->
+              <!--begin:Input-->
+              <span class="form-check form-check-custom form-check-solid">
+                <input class="form-check-input" type="radio"  name="category" value="1"/>
+              </span>
+              <!--end:Input-->
+            </div>
+            <!--end::Wrapper-->
+            <!--begin::Wrapper-->
+            <div class="d-flex align-items-center mb-15 stepper">
+              <!--begin::Bullet-->
+              <span class="d-flex justify-content-center align-items-center symbol-label bg-light-primary rounded w-45px h-45px">
+                <div class="fs-2x fw-bold text-primary">2</div>
+              </span>
+              <!--end::Bullet-->
+              <!--begin::Info-->
+              <div class="flex-grow-1 mx-6">
+                <div class="fw-bold fs-2">75% 받는다.</div>
+              </div>
+              <!--end::Info-->
+              <!--begin:Input-->
+              <span class="form-check form-check-custom form-check-solid">
+                <input class="form-check-input" type="radio"  name="category" value="1"/>
+              </span>
+              <!--end:Input-->
+            </div>
+            <!--end::Wrapper-->
+            <!--begin::Wrapper-->
+            <div class="d-flex align-items-center mb-15 stepper">
+              <!--begin::Bullet-->
+              <span class="d-flex justify-content-center align-items-center symbol-label bg-light-primary rounded w-45px h-45px">
+                <div class="fs-2x fw-bold text-primary">3</div>
+              </span>
+              <!--end::Bullet-->
+              <!--begin::Info-->
+              <div class="flex-grow-1 mx-6">
+                <div class="fw-bold fs-2">100% 받는다.</div>
+              </div>
+              <!--end::Info-->
+              <!--begin:Input-->
+              <span class="form-check form-check-custom form-check-solid">
+                <input class="form-check-input" type="radio"  name="category" value="1"/>
+              </span>
+              <!--end:Input-->
+            </div>
+            <!--end::Wrapper-->
+            <!--begin::Wrapper-->
+            <div class="d-flex align-items-center mb-15 stepper">
+              <!--begin::Bullet-->
+              <span class="d-flex justify-content-center align-items-center symbol-label bg-light-primary rounded w-45px h-45px">
+                <div class="fs-2x fw-bold text-primary">4</div>
+              </span>
+              <!--end::Bullet-->
+              <!--begin::Info-->
+              <div class="flex-grow-1 mx-6">
+                <div class="fw-bold fs-2">105% 받는다.</div>
+              </div>
+              <!--end::Info-->
+              <!--begin:Input-->
+              <span class="form-check form-check-custom form-check-solid">
+                <input class="form-check-input" type="radio"  name="category" value="1"/>
+              </span>
+              <!--end:Input-->
+            </div>
+            <!--end::Wrapper-->
+            <!--begin:: Hint Section -->
+            <div class="alert alert-primary border-dashed d-flex align-items-center px-5 py-10 mb-6" style="border-color: #0095e8;">
+              <!--begin::Wrapper-->
+              <div class="d-flex flex-column">
+                  <!--begin::Title-->
+                  <h4 class="mb-1 text-muted fw-semibold">힌트 : 놀랍게도 100%보다 많이 받을 수 있어요.</h4>
+                  <!--end::Title-->
+              </div>
+              <!--end::Wrapper-->
+            </div>
+            <!--end:: Hint Section -->
+            <!--begin:: Action Btn -->
+            <div class="d-flex justify-content-end">
+              <button class="btn btn-primary fw-semibold fs-2 px-12">
+                정답 확인
+              </button>
+            </div>
+            <!--end:: Action Btn -->
+          </div>
+          <!--end::Tap pane-->
+        </div>
+        <!--end::Tab Content-->
+      </div>
+      <!--end: Card Body-->
+    </div>
+    <!-- end::Timeline Section-->
+  </div>
+
+  <!-- being::Page Number -->
+  <div class="d-flex justify-content-center">
+    <div class="text-muted fs-7 mt-7 mb-15">
+      {{02}} of 05
+    </div>
+  </div>
+  <!-- being::Page Number -->
+
+  <!--begin::Javascript-->
+  <script>
+    var hostUrl = "assets/";
+  </script>
+  <!--begin::Global Javascript Bundle(used by all pages)-->
+  <script src="assets/plugins/global/plugins.bundle.js"></script>
+  <script src="assets/js/scripts.bundle.js"></script>
+  <!--end::Global Javascript Bundle-->
+  <!--begin::Vendors Javascript(used by this page)-->
+  <script src="assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
+  <script src="assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
+  <!--end::Vendors Javascript-->
+  <!--begin::Custom Javascript(used by this page)-->
+  <script src="assets/js/custom/landing.js"></script>
+  <script src="assets/js/custom/pages/pricing/general.js"></script>
+  <!--end::Custom Javascript-->
+  <!--end::Javascript-->
+
+  <style>
+    :root {
+      --kt-primary: #2459F4 !important;
+      --bs-primary: #2459F4 !important;
+      --bs-primary-rgb: 36,89,244 !important;
+      --kt-primary-rgb: 36, 89, 244 !important;
+      --kt-primary-light: #f1faff;
+    }
+
+    .text-primary {
+      --bs-text-opacity: 1;
+      color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important
+    }
+  </style>
+</body>
+<!--end::Body-->
+
+</html>

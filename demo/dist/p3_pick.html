@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<!--begin::Head-->
+<!-- git test please ignore this -->
+
+<head>
+  <base href="" />
+  <title>타이틀을 지정해주세요.</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+  <link rel="shortcut icon" href="assets/imgs/favicon/favicon_symbol.png" />
+  <!--begin::Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+  <!--end::Fonts-->
+  <!--begin::Global Stylesheets Bundle(used by all pages)-->
+  <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+  <!--end::Global Stylesheets Bundle-->
+
+</head>
+<!--end::Head-->
+<!--begin::Body-->
+
+<body id="kt_body" data-bs-spy="scroll" data-bs-target="#kt_landing_menu" tabindex="0" data-bs-smooth-scroll="true" class="scrollspy bg-white position-relative app-blank">
+  <!--begin::Theme mode setup on page load-->
+  <script>
+    var defaultThemeMode = "light";
+    var themeMode;
+    if (document.documentElement) {
+      if (document.documentElement.hasAttribute("data-theme-mode")) {
+        themeMode = document.documentElement.getAttribute("data-theme-mode");
+      } else {
+        if (localStorage.getItem("data-theme") !== null) {
+          themeMode = localStorage.getItem("data-theme");
+        } else {
+          themeMode = defaultThemeMode;
+        }
+      }
+      if (themeMode === "system") {
+        themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", themeMode);
+    }
+  </script>
+  <!--end::Theme mode setup on page load-->
+  <!--begin::Root-->
+  <!--begin::Header Section-->
+  <div class="mb-0">
+    <!--begin::Wrapper-->
+    <div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom z-index-1">
+      <header class="navbar navbar-expand-lg fixed-top bg-white p-5 border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo img-fluid" src="./assets/imgs/logo.png" alt="logo_W3" style="width: 128px;">
+          </a> 
+        </div>
+      </header>
+
+      <style>
+        .nav-tabs.nav-line-tabs {
+          border-bottom-color: rgba(0,0,0,0);
+        }
+
+        .header-2 .nav-item a {
+          color: #000;
+        }
+
+        .header-2 .nav-item a:hover {
+          color: #1735DB;
+        }
+
+        @media screen and (max-width: 768px) {
+          .fs-md-14px {
+            font-size: 14px;
+          }
+        }
+      </style>
+    </div>
+    <!--end::Wrapper-->
+  </div>
+
+  <!--end::Header Section-->
+  <div class="container">
+    <div class="mt-19 d-flex justify-content-center">
+      <img src="/demo1/dist/assets/imgs/intro_img.png" alt="" class="img-fluid">
+    </div>
+  </div>
+
+  <div class="container">
+    <!--begin::Card -->
+    <div class="pt-10 mt-20">
+      <div class="d-flex justify-content-center">
+        <ul class="nav" style="box-shadow: 0px 0px 20px rgba(94, 98, 120, 0.15); border: none; border-radius: 18px;">
+          <!--begin::Item-->
+          <li class="nav-item mb-3 me-0">
+            <!--begin::Icon-->
+            <div class="nav-icon text-center my-12">
+              <img src="./assets/imgs/p3_gift.png" alt="">
+            </div>
+            <!--end::Icon-->
+            <!--begin::Info-->
+            <div class="px-10">
+              <span class="text-gray-800 fw-bolder fs-1 d-block mb-8">{{500원}} 당첨</span>
+            </div>
+            <!--end::Info-->
+          </li>
+          <!--end::Item-->
+        </ul>
+      </div>
+    </div>
+    <!--end::Card -->
+
+    <!--begin::SignUp  -->
+    <div class="alert alert-primary d-flex align-items-center py-8 ps-2 border-0 mt-20 mx-10">
+      <!--begin::Icon-->
+      <img src="./assets/imgs/p3_cart.png" alt="" class="w-30px mx-5">
+      <!--end::Icon-->
+      <!--begin::Wrapper-->
+      <div class="d-flex flex-column">
+          <!--begin::Title-->
+          <div class="fs-2 mb-1 text-dark">뽑기 완료 후 회원가입 정보를 <br> 바탕으로 리워드가 지급됩니다.</div>
+          <!--end::Title-->
+      </div>
+      <!--end::Wrapper-->
+    </div>
+    <div class="fw-bolder text-muted text-center mt-6">
+      리즈1960 회원이신가요? <span class="text-primary">로그인 하고 즉시 현금받기</span>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <a href="https://www.lees1960.com/tutor/signup/nice/intro">
+        <div class="fs-3 btn btn-primary my-14">
+          간단 회원가입하고 즉시 현금받기
+        </div>
+      </a>
+      <!--begin::detail-->
+      <div class="mx-10">
+        <div class="text-muted text-start">
+          ※ 해당 이벤트는 선착순 종료될 수 있습니다. <br>
+          ※ 이벤트 종료시 다음번에 더 재밌는 이벤트로 돌아오갰습니다. <br>
+          ※ 해당 리워드는 이벤트 참여 완료일 기준, 차주 금요일에 <br>
+          지급되며, 중복지급은 불가합니다. <br>
+          ※ 본인인증 및 계좌정보 미등록 시, 리워드 지급이 어렵습니다. <br>
+          ※ 추천인 보너스는 추천받은 친구의 퀴즈 챌린지 참여 및 회원가입 완료 시, 지급됩니다.
+        </div>
+      </div>
+      <!--end::detail-->
+    </div>
+    <!--end::SignUp  -->
+  </div>
+
+  <!--being::Page Number -->
+  <div class="d-flex justify-content-center">
+    <div class="text-muted fs-7 mt-15 mb-15">
+      {{03}} of 05
+    </div>
+  </div>
+  <!--end::Page Number -->
+
+  <!--begin::Javascript-->
+  <script>
+    var hostUrl = "assets/";
+  </script>
+  <!--begin::Global Javascript Bundle(used by all pages)-->
+  <script src="assets/plugins/global/plugins.bundle.js"></script>
+  <script src="assets/js/scripts.bundle.js"></script>
+  <!--end::Global Javascript Bundle-->
+  <!--begin::Vendors Javascript(used by this page)-->
+  <script src="assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
+  <script src="assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
+  <!--end::Vendors Javascript-->
+  <!--begin::Custom Javascript(used by this page)-->
+  <script src="assets/js/custom/landing.js"></script>
+  <script src="assets/js/custom/pages/pricing/general.js"></script>
+  <!--end::Custom Javascript-->
+  <!--end::Javascript-->
+
+  <style>
+    :root {
+      --kt-primary: #2459F4 !important;
+      --bs-primary: #2459F4 !important;
+      --bs-primary-rgb: 36,89,244 !important;
+      --kt-primary-rgb: 36, 89, 244 !important;
+      --kt-primary-light: #f1faff;
+    }
+
+    .text-primary {
+      --bs-text-opacity: 1;
+      color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important
+    }
+  </style>
+</body>
+<!--end::Body-->
+
+</html>

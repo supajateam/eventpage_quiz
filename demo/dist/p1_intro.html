@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<!--begin::Head-->
+<!-- git test please ignore this -->
+
+<head>
+  <base href="" />
+  <title>타이틀을 지정해주세요.</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="canonical" href="https://preview.keenthemes.com/metronic8" />
+  <link rel="shortcut icon" href="assets/imgs/favicon/favicon_symbol.png" />
+  <!--begin::Fonts-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+  <!--end::Fonts-->
+  <!--begin::Global Stylesheets Bundle(used by all pages)-->
+  <link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
+  <link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
+  <!--end::Global Stylesheets Bundle-->
+
+</head>
+<!--end::Head-->
+<!--begin::Body-->
+
+<body id="kt_body" data-bs-spy="scroll" data-bs-target="#kt_landing_menu" tabindex="0" data-bs-smooth-scroll="true" class="scrollspy bg-white position-relative app-blank">
+  <!--begin::Theme mode setup on page load-->
+  <script>
+    var defaultThemeMode = "light";
+    var themeMode;
+    if (document.documentElement) {
+      if (document.documentElement.hasAttribute("data-theme-mode")) {
+        themeMode = document.documentElement.getAttribute("data-theme-mode");
+      } else {
+        if (localStorage.getItem("data-theme") !== null) {
+          themeMode = localStorage.getItem("data-theme");
+        } else {
+          themeMode = defaultThemeMode;
+        }
+      }
+      if (themeMode === "system") {
+        themeMode = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      }
+      document.documentElement.setAttribute("data-theme", themeMode);
+    }
+  </script>
+  <!--end::Theme mode setup on page load-->
+  <!--begin::Root-->
+  <!--begin::Header Section-->
+  <div class="mb-0">
+    <!--begin::Wrapper-->
+    <div class="bgi-no-repeat bgi-size-contain bgi-position-x-center bgi-position-y-bottom z-index-1">
+      <header class="navbar navbar-expand-lg fixed-top bg-white p-5 border-bottom">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img class="logo img-fluid" src="./assets/imgs/logo.png" alt="logo_W3" style="width: 128px;">
+          </a> 
+        </div>
+      </header>
+
+      <style>
+        .nav-tabs.nav-line-tabs {
+          border-bottom-color: rgba(0,0,0,0);
+        }
+
+        .header-2 .nav-item a {
+          color: #000;
+        }
+
+        .header-2 .nav-item a:hover {
+          color: #1735DB;
+        }
+
+        @media screen and (max-width: 768px) {
+          .fs-md-14px {
+            font-size: 14px;
+          }
+        }
+      </style>
+    </div>
+    <!--end::Wrapper-->
+  </div>
+
+  <!--end::Header Section-->
+  <div class="container">
+    <!-- begin::Intro Image -->
+    <div class="mt-20 pt-10 text-center">
+      <img src="/demo/dist/assets/imgs/intro_img.png" alt="" class="img-fluid">
+    </div>
+    <!-- end::Intro Image -->
+
+    <!-- begin::Detail Section-->
+    <section>
+      <div class="card bg-light border mx-3">
+        <div class="card-body">
+          <div class="fs-3">1. 매일 출석하고, 신~나게 퀴즈 푼다.</div>
+          <div class="fs-3">2. 뽑기로 현금 받아간다~! </div>
+          <div class="fs-3">3. 일주일 퀴즈 챌린지 완수하고 리즈1960 서비스와 친해진다,,, >,&lt </div>
+        </div>
+      </div>
+      <div class="text-muted fs-5 mt-7 mx-3">
+        <div class="title">
+          ※ 추가 혜택
+        </div>
+        <ul class="ps-6">
+          <li>
+            일주일 퀴즈 챌린지 완수하면 ‘현금 만원’이 내통장으로 슝~
+          </li>
+          <li>
+            매일 딱 1번의 기회, 친구에게 퀴즈챌린지 공유하고 현금 최대 ‘2만원’ 더!
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- end::Detail Section-->
+
+    <div class="d-flex flex-column align-items-center">
+      <!-- begin:Action Btn -->
+      <a href="./p2_day1_quiz.html">
+        <div class="btn btn-primary fw-bolder fs-2">
+          퀴즈 챌린지 참여하기
+        </div>
+      </a>
+      <!-- end:Action Btn -->
+      <!-- being::Page Number -->
+      <div class="text-muted fs-7 mt-7 mb-15">
+        {{01}} of 05
+      </div>
+      <!-- being::Page Number -->
+    </div>
+  </div>
+
+  <!--begin::Javascript-->
+  <script>
+    var hostUrl = "assets/";
+  </script>
+  <!--begin::Global Javascript Bundle(used by all pages)-->
+  <script src="assets/plugins/global/plugins.bundle.js"></script>
+  <script src="assets/js/scripts.bundle.js"></script>
+  <!--end::Global Javascript Bundle-->
+  <!--begin::Vendors Javascript(used by this page)-->
+  <script src="assets/plugins/custom/fslightbox/fslightbox.bundle.js"></script>
+  <script src="assets/plugins/custom/typedjs/typedjs.bundle.js"></script>
+  <!--end::Vendors Javascript-->
+  <!--begin::Custom Javascript(used by this page)-->
+  <script src="assets/js/custom/landing.js"></script>
+  <script src="assets/js/custom/pages/pricing/general.js"></script>
+  <!--end::Custom Javascript-->
+  <!--end::Javascript-->
+
+  <style>
+    :root {
+      --kt-primary: #2459F4 !important;
+      --bs-primary: #2459F4 !important;
+      --bs-primary-rgb: 36,89,244 !important;
+    }
+  </style>
+</body>
+<!--end::Body-->
+
+</html>
