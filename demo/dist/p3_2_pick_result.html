@@ -2,6 +2,7 @@
 <html>
 <!--begin::Head-->
 <!-- git test please ignore this -->
+
 <head>
   <base href=""/>
   <title>리즈1960 퀴즈 챌린지</title>
@@ -80,52 +81,99 @@
 
   <!--end::Header Section-->
   <div class="container">
-    <!-- begin::Intro Image -->
-    <div class="mt-20 pt-10 text-center">
-      <img src="/demo/dist/assets/imgs/intro_img.png" alt="" class="img-fluid">
-    </div>
-    <!-- end::Intro Image -->
-
-    <!-- begin::Detail Section-->
-    <section>
-      <div class="card bg-light border mx-3">
-        <div class="card-body">
-          <div class="fs-3">1. 매일 출석하고, 신~나게 퀴즈 푼다.</div>
-          <div class="fs-3">2. 뽑기로 현금 받고, 친구초대 보너스도 챙긴다~!</div>
-          <div class="fs-3">3. 일주일 퀴즈 챌린지 완수하고 리즈1960 서비스와 친해진다,,, >,&lt </div>
-        </div>
-      </div>
-      <div class="text-muted fs-5 mt-7 mx-3">
-        <div class="title">
-          ※ 추가 혜택
-        </div>
-        <ul class="ps-6">
-          <li>
-            일주일 퀴즈 챌린지 완수하면 ‘현금 만원’이 내통장으로 슝~
-          </li>
-          <li>
-            매일 딱 1번의 기회, 친구에게 퀴즈챌린지 공유하고 현금 최대 ‘2만원’ 더!
-          </li>
-        </ul>
-      </div>
-    </section>
-    <!-- end::Detail Section-->
-
-    <div class="d-flex flex-column align-items-center">
-      <!-- begin:Action Btn -->
-      <a href="./p2_day1_quiz.html">
-        <div class="btn btn-primary fw-bolder fs-2">
-          퀴즈 챌린지 참여하기
-        </div>
-      </a>
-      <!-- end:Action Btn -->
-      <!-- being::Page Number -->
-      <div class="text-muted fs-7 mt-7 mb-15">
-        {{01}} of 04
-      </div>
-      <!-- being::Page Number -->
+    <div class="mt-19 d-flex justify-content-center">
+      <img src="/demo1/dist/assets/imgs/intro_img.png" alt="" class="img-fluid">
     </div>
   </div>
+
+  <div class="container">
+    <!--begin::Card -->
+    <div class="pt-10 mt-20">
+      <div class="d-flex justify-content-center">
+        <ul class="nav" style="box-shadow: 0px 0px 20px rgba(94, 98, 120, 0.15); border: none; border-radius: 18px;">
+          <!--begin::Item-->
+          <li class="nav-item pb-3 me-0" style="border: 4px solid #E4E6EE; border-radius: 18px;">
+            <!--begin::Icon-->
+            <div class="nav-icon text-center my-12">
+              <img src="./assets/imgs/p3_gift.png" alt="">
+            </div>
+            <!--end::Icon-->
+            <!--begin::Info-->
+            <div class="px-10">
+              <span class="text-gray-800 fw-bolder fs-1 d-block mb-8">{{500원}} 당첨</span>
+            </div>
+            <!--end::Info-->
+          </li>
+          <!--end::Item-->
+        </ul>
+      </div>
+    </div>
+    <!--end::Card -->
+
+    <!--begin::SignUp  -->
+    <div class="alert alert-primary d-flex align-items-center py-8 ps-2 border-0 mt-20 mx-10">
+      <!--begin::Icon-->
+      <img src="./assets/imgs/p3_cart.png" alt="" class="w-30px mx-5">
+      <!--end::Icon-->
+      <!--begin::Wrapper-->
+      <div class="d-flex flex-column">
+          <!--begin::Title-->
+          <div class="fs-2 mb-1 text-dark">뽑기 완료 후 회원가입 정보를 <br> 바탕으로 리워드가 지급됩니다.</div>
+          <!--end::Title-->
+      </div>
+      <!--end::Wrapper-->
+    </div>
+    <div class="alert alert-primary py-8 ps-2 border-0 mt-5 mx-10">
+      <div class="text-center mb-8">
+        <img src="./assets/imgs/p3_recommend.png" class="w-50" alt="">
+      </div>
+      <div class="text-center text-dark">
+        <div class="fs-2 fw-semibold">
+          7일 출석하고 퀴즈 다 풀면 <br>
+          <span class="fw-bolder">무조건 <span class="text-danger">10,000원</span></span>
+        </div>
+        <div class="mt-5 fs-2 fw-semibold">
+          친구를 <span class="fw-bolder">
+            1명 초대할 때마다<br>
+          </span>추가 <span class="fw-bolder text-danger">3,000원</span>씩 더 드려요.<br>
+          친구 7명 초대 = <span class="fw-bolder text-danger">21,000원</span>
+        </div>
+        <div class="mt-2 fs-2x fw-bolder">총 31,000원</div>
+      </div>
+    </div>
+    <div class="fs-5 fw-bolder text-muted text-center mt-16">
+      리즈1960 회원이신가요? 
+      <a href="https://www.lees1960.com/tutor/signin"><span class="text-primary">로그인</span></a>
+    </div>
+    <div class="d-flex flex-column align-items-center">
+      <a href="https://www.lees1960.com/tutor/signup/nice/intro">
+        <div class="fs-2 btn btn-primary mt-7 mb-14">
+          회원가입 하러가기
+        </div>
+      </a>
+      <!--begin::detail-->
+      <div class="mx-10">
+        <div class="fs-6 text-muted text-start">
+          <span class="fw-bolder">
+            ※ 친구초대에 앞서 회원가입을 완료해주셔야 합니다. <br>
+            (등록된 회원정보를 바탕으로 초대된 친구수가 집계됩니다.) <br>
+          </span>
+          ※ 해당 이벤트는 선착순 종료될 수 있습니다. <br>
+          ※ 이벤트 종료시 다음번에 더 재밌는 이벤트로 돌아오갰습니다.
+        </div>
+      </div>
+      <!--end::detail-->
+    </div>
+    <!--end::SignUp  -->
+  </div>
+
+  <!--being::Page Number -->
+  <div class="d-flex justify-content-center">
+    <div class="text-muted fs-7 mt-15 mb-15">
+      {{03}} of 04
+    </div>
+  </div>
+  <!--end::Page Number -->
 
   <!--begin::Javascript-->
   <script>
@@ -150,6 +198,13 @@
       --kt-primary: #2459F4 !important;
       --bs-primary: #2459F4 !important;
       --bs-primary-rgb: 36,89,244 !important;
+      --kt-primary-rgb: 36, 89, 244 !important;
+      --kt-primary-light: #f1faff;
+    }
+
+    .text-primary {
+      --bs-text-opacity: 1;
+      color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important
     }
   </style>
 </body>
